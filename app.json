@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "TasksHub",
+    "slug": "taskshub",
+    "scheme": "taskshub",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.taskshub.practical07"
+    },
+    "ios": {
+      "bundleIdentifier": "com.taskshub.practical07"
+    },
+    "web": {
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-notifications",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow TasksHub to select a profile photo.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ]
+    ]
+  }
+}
